@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360.04" height="64.872" viewBox="0 0 999 180">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 144px;
+        fill: #2cc2b2;
+      }
+
+      .cls-1, .cls-2 {
+        text-anchor: middle;
+        font-family: Minecraftia;
+      }
+
+      .cls-2 {
+        font-size: 72px;
+        fill: #151515;
+      }
+    </style>
+  </defs>
+  <text id="Logo" class="cls-1" x="468.091" y="251.818">ByteGames</text>
+  <text id="Logo_copy" data-name="Logo copy" class="cls-2" x="972.091" y="107.818">®</text>
+</svg>
