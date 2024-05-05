@@ -7,13 +7,13 @@ import NavigationBar from "@/components/NavigationBar";
 import Footer from "@/components/Footer";
 
 const poppins = Poppins({
-	weight: ["400", "500", "600", "800"],
+	weight: ["400", "500"],
 	subsets: ["latin"],
 	fallback: ["sans-serif"],
 });
 
 export const minecraftia = localFont({
-	src: "../assets/fonts/Minecraftia-Regular.ttf",
+	src: "../assets/fonts/Minecraft.otf",
 	fallback: ["sans-serif"],
 });
 
