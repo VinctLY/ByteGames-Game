@@ -10,6 +10,8 @@ export default function LandingHeader() {
 	const textRef: MutableRefObject<HTMLHeadingElement | null> = useRef(null);
 
 	useEffect(() => {
+		if (textRef.current) textRef.current.innerHTML = "";
+
 		const timing = 50;
 		let i = 0;
 
@@ -30,17 +32,15 @@ export default function LandingHeader() {
 			textRef.current?.append(container);
 		});
 
-		return () => {
-			if (textRef.current) textRef.current.innerHTML = "";
-		};
+		return () => {};
 	}, []);
 
 	return (
 		<h1
 			ref={textRef}
 			id="landing-heading--animation"
-			className="text-5xl font-bold w-fit flex gap-1 flex-wrap *:shrink-0">
-			<noscript>{text}</noscript>
+			className="text-5xl font-bold w-fit *:inline-block *:mr-4">
+			{text}
 		</h1>
 	);
 }
