@@ -17,9 +17,9 @@ export default function NavigationLinks() {
 				onClick={() => setNavOpen(!navOpen)}
 			/>
 			<div
-				className={`flex flex-col gap-12 fixed right-0 top-0 py-24 w-2/3 h-full ${
+				className={`flex flex-col gap-12 fixed right-0 top-0 py-24 w-2/3 h-full transition-transform bg-white shadow-lg *:text-center *:transition-transform active:*:scale-95 sm:flex-row sm:static sm:w-full sm:shadow-none sm:translate-x-0 sm:px-0 sm:py-0 sm:bg-transparent text-lg ${
 					navOpen ? "translate-x-0" : "translate-x-full"
-				} transition-transform bg-white shadow-lg *:text-center *:transition-transform active:*:scale-95 sm:flex-row sm:static sm:w-full sm:shadow-none sm:translate-x-0 sm:px-0 sm:py-0 sm:pt-3 sm:bg-transparent`}>
+				}`}>
 				<li className="">
 					<Link href="/about">About</Link>
 				</li>

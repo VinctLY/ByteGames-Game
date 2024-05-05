@@ -12,7 +12,7 @@ const poppins = Poppins({
 	fallback: ["sans-serif"],
 });
 
-export const minecraftia = localFont({
+export const minecraft = localFont({
 	src: "../assets/fonts/Minecraft.otf",
 	fallback: ["sans-serif"],
 });
