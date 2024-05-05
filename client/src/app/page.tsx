@@ -14,9 +14,9 @@ export default function Home() {
 					<p>Let's explore a little bit more</p>
 					<Link
 						href="/games"
-						className="flex flex-nowrap items-center gap-2 bg-black text-md text-white py-3 px-4 rounded-md">
+						className="flex flex-nowrap items-center gap-2 bg-black text-white py-3 px-4 rounded-md">
 						See Games
-						<FontAwesomeIcon icon={faArrowRight} />
+						<FontAwesomeIcon icon={faArrowRight} className="size-4" />
 					</Link>
 				</div>
 			</div>
