@@ -9,9 +9,10 @@ export const metadata: Metadata = {
 
 export default function page() {
 	return (
-		<main className={`${minecraft.className} p-8 min-h-screen`}>
-			<h1 className="text-3xl font-bold mb-8">About This Page</h1>
-			<div className="*:mb-4">
+		<main
+			className={`${minecraft.className} p-8 min-h-screen bg-light text-dark dark:bg-dark dark:text-light`}>
+			<h1 className="text-3xl text-darker dark:text-light font-bold mb-8">About This Page</h1>
+			<div className="text-dark dark:text-gray-300 *:mb-4">
 				<p>
 					For now, this project is still WIP (Work-In-Progress). The main goal of this project is as
 					a showcase of every other project I&apos;ve done, mainly games. I will be creating my game

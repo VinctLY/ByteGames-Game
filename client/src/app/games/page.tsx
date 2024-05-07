@@ -9,7 +9,8 @@ export const metadata: Metadata = {
 
 export default function page() {
 	return (
-		<main className={`${minecraft.className} min-h-screen p-8 flex justify-center items-center`}>
+		<main
+			className={`${minecraft.className} min-h-screen p-8 flex justify-center items-center bg-light text-dark dark:bg-dark dark:text-light`}>
 			No games for now..
 		</main>
 	);
