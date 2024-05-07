@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { minecraft } from "@/app/layout";
+import { minecraft } from "@/app/loader";
 
 export default function Footer() {
 	return (

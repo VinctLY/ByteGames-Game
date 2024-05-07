@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
-import localFont from "next/font/local";
 import "./globals.css";
 
 import NavigationBar from "@/components/NavigationBar";
@@ -9,11 +8,6 @@ import Footer from "@/components/Footer";
 const poppins = Poppins({
 	weight: ["400", "500"],
 	subsets: ["latin"],
-	fallback: ["sans-serif"],
-});
-
-export const minecraft = localFont({
-	src: "../assets/fonts/Minecraft.otf",
 	fallback: ["sans-serif"],
 });
 

@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 
-import { minecraft } from "../layout";
+import { minecraft } from "../loader";
 
 export const metadata: Metadata = {
 	title: "About",
@@ -14,7 +14,7 @@ export default function page() {
 			<div className="*:mb-4">
 				<p>
 					For now, this project is still WIP (Work-In-Progress). The main goal of this project is as
-					a showcase of every other project I've done, mainly games. I will be creating my game
+					a showcase of every other project I&apos;ve done, mainly games. I will be creating my game
 					using the{" "}
 					<a href="https://www.rust-lang.org/" className="underline text-primary">
 						Rust programming language
@@ -24,7 +24,7 @@ export default function page() {
 				<p>
 					I <i>(as the game developer)</i> am looking forward to create some other projects in game
 					industry later on, but for now I am still learning and is focused on other things on the
-					matter so I'm not expecting for any projects to be done soon.
+					matter so I&apos;m not expecting for any projects to be done soon.
 				</p>
 				<i>
 					<b>- Lyer</b>
