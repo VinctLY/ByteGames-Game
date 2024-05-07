@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 
-import { minecraft } from "../layout";
+import { minecraft } from "../loader";
 
 export const metadata: Metadata = {
 	title: "Find Games",

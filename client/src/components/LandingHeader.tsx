@@ -33,7 +33,7 @@ export default function LandingHeader() {
 		});
 
 		return () => {};
-	}, []);
+	});
 
 	return (
 		<h1
