@@ -8,7 +8,7 @@ import { minecraft } from "@/app/loader";
 export default function Footer() {
 	return (
 		<>
-			<footer className={`flex flex-col gap-16 bg-black text-white p-8 ${minecraft.className}`}>
+			<footer className={`flex flex-col gap-16 bg-darker text-light p-8 ${minecraft.className}`}>
 				<div className="flex flex-wrap gap-8 text-gray-300 sm:gap-16">
 					<div>
 						<h3 className="text-3xl text-primary font-bold mb-2">Socials</h3>

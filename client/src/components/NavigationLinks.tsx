@@ -53,22 +53,22 @@ export default function NavigationLinks({ links }: NavigationLinksProps) {
 		<ul className="flex items-center">
 			<FontAwesomeIcon
 				icon={faBars}
-				className="sm:hidden size-6 cursor-pointer"
+				className="sm:hidden size-6 cursor-pointer text-dark dark:text-light"
 				onClick={() => setNavOpen(true)}
 			/>
 			<div
-				className={`flex flex-col gap-12 fixed right-0 top-0 z-50 py-24 w-2/3 h-full transition-transform bg-white shadow-lg *:text-center *:transition-[transform,color] active:*:scale-95 sm:transition-none sm:flex-row sm:static sm:w-full sm:shadow-none sm:translate-x-0 sm:px-0 sm:py-0 sm:bg-transparent text-lg ${
+				className={`flex flex-col gap-12 fixed right-0 top-0 z-50 py-24 w-2/3 h-full transition-transform shadow-lg *:text-center *:transition-[transform,color] active:*:scale-95 sm:transition-none sm:flex-row sm:static sm:w-full sm:shadow-none sm:translate-x-0 bg-darker sm:px-0 sm:py-0 sm:bg-transparent text-lg ${
 					navOpen ? "translate-x-0" : "translate-x-full"
 				}`}
 				ref={navRef}>
 				<FontAwesomeIcon
 					icon={faXmark}
-					className="absolute top-4 right-8 size-6 cursor-pointer sm:hidden"
+					className="absolute top-4 right-8 size-6 cursor-pointer sm:hidden text-dark dark:text-light"
 					onClick={() => setNavOpen(false)}
 				/>
 				{links.map((link, i) => {
 					return (
-						<li className="hover:text-primary" key={i}>
+						<li className="hover:text-primary dark:text-gray-300" key={i}>
 							<Link href={link.url}>{link.anchor}</Link>
 						</li>
 					);
