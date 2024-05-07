@@ -1,4 +1,11 @@
+import { Metadata } from "next";
+
 import { minecraft } from "../layout";
+
+export const metadata: Metadata = {
+	title: "About",
+	description: "About ByteGames website and developer",
+};
 
 export default function page() {
 	return (
